@@ -1,0 +1,6 @@
+mysql-connector-python
+google-cloud-bigquery
+pandas
+pyarrow
+sqlalchemy
+pwinput
