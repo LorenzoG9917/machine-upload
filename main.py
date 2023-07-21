@@ -46,8 +46,9 @@ def show_tables(conn):
         return "Connection failed. Please check your database credentials."
 
 #Auxiliar function that helps to upload the rows from a table in SQL to a Bigquery table
+#.json File that contains the credentials needed to authenticate your application
 def upload_google(table, conn):
-    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'user-acount.json'
+    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '/path/to/your/user-acount.json' #need to replace '/path/to/your/user-acount.json' with the actual file path to your service account key file. 
     client = bigquery.Client()
     if type(table) == dict:
         name_table = table['Name_table']
