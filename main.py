@@ -15,7 +15,7 @@ def test_connection():
     # Create the connection string
     connection_string = f"mysql+mysqlconnector://{user}:{password}@{host}/{database}"
     # Create the engine
-    engine = create_engine(connection_string)
+    engine = create_engine(connection_string,connect_args={"connect_timeout": 10})
 
     try:
         # Test the connection
