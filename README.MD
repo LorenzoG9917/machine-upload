@@ -37,5 +37,5 @@ The application will prompt the user to provide the correct information to estab
 For any support or questions, please contact us at: lguerrerogomez30@gmail.com
 ## Author
 This project was developed by Lorenzo Guerrero.
-[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/lorenzoguerrero17)
+[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/lorenzoguerrero17/)
 &nbsp;
